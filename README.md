@@ -3,10 +3,10 @@ Geant4 Simulation trying to study effects of medium energy gamma rays in BGO sci
 
 Delete build directory, create your own one and then run:
 
-\texttt{cmake path-to-source}
+cmake path-to-source
 
 Then
 
-\textt{make}
+make
 
 Then, run sim executable with ./
