@@ -635,6 +635,9 @@ CMakeFiles/sim.dir/construction.cc.o
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh
 
 CMakeFiles/sim.dir/generator.cc.o
  /Users/diegocostasrodriguez/software/geant4/sim/generator.cc
@@ -1847,26 +1850,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Qt3D.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UIExecutive.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUIshell.hh
- /Users/diegocostasrodriguez/software/geant4/sim/construction.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomTypes.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomConfig.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4CSGSolid.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Polyhedron.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/HepPolyhedron.h
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4TwoVector.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.icc
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PVPlacement.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistManager.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistElementBuilder.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh
- /Users/diegocostasrodriguez/software/geant4/sim/physics.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/FTFP_BERT.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VModularPhysicsList.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPhysicsConstructor.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicsListHelper.hh
@@ -1900,9 +1884,31 @@ CMakeFiles/sim.dir/sim.cc.o
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4MaterialCutsCouple.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ProductionCuts.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4MCCIndexConversionTable.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4EmStandardPhysics.hh
- /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalPhysics.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4EmStandardPhysics_option4.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalParameters.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalPhysics.hh
+ /Users/diegocostasrodriguez/software/geant4/sim/construction.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomTypes.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomConfig.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4CSGSolid.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Polyhedron.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/HepPolyhedron.h
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4TwoVector.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.icc
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PVPlacement.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistManager.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistElementBuilder.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc
+ /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh
  /Users/diegocostasrodriguez/software/geant4/sim/action.hh
  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserActionInitialization.hh
  /Users/diegocostasrodriguez/software/geant4/sim/generator.hh

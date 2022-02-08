@@ -632,7 +632,10 @@ CMakeFiles/sim.dir/construction.cc.o: ../construction.cc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh
 
 CMakeFiles/sim.dir/generator.cc.o: ../generator.cc \
   ../generator.hh \
@@ -1842,26 +1845,7 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Qt3D.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UIExecutive.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUIshell.hh \
-  ../construction.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomTypes.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomConfig.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4CSGSolid.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Polyhedron.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/HepPolyhedron.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4TwoVector.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.icc \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PVPlacement.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistElementBuilder.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
-  ../physics.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/FTFP_BERT.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VModularPhysicsList.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPhysicsConstructor.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicsListHelper.hh \
@@ -1895,9 +1879,31 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ProductionCuts.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4MCCIndexConversionTable.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4EmStandardPhysics.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalPhysics.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4EmStandardPhysics_option4.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalParameters.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4OpticalPhysics.hh \
+  ../construction.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomTypes.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GeomConfig.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4CSGSolid.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Polyhedron.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/HepPolyhedron.h \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4TwoVector.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Box.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PVPlacement.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistElementBuilder.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh \
   ../action.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserActionInitialization.hh \
   ../generator.hh \
@@ -1905,6 +1911,8 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleGun.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPrimaryGenerator.hh
 
+
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/FTFP_BERT.hh:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UIExecutive.hh:
 
@@ -2228,9 +2236,11 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/csignal:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/optional:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fenv.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cfenv:
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VModelFactory.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/gethostuuid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/select.h:
 
@@ -2269,6 +2279,12 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Geantino.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh:
+
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh:
 
@@ -2313,6 +2329,8 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ElementVector.hh:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4IsotopeVector.hh:
+
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4EmStandardPhysics_option4.hh:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Random/RandPoisson.icc:
 
@@ -2862,6 +2880,8 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits:
 
+/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc:
+
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VMarker.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iostream:
@@ -2877,6 +2897,10 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_off_t.h:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPhysicalVolume.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cfenv:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/optional:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Scene.hh:
 
@@ -2996,10 +3020,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/algorithm:
 
-/Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VModelFactory.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/gethostuuid.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h:
@@ -3057,8 +3077,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/wctype.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iterator:
 
@@ -3175,8 +3193,6 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Visible.icc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/qos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fenv.h:
 
 /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GRSVolume.icc:
 

@@ -345,4 +345,7 @@ CMakeFiles/sim.dir/construction.cc.o: \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Pow.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh
