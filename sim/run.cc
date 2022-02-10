@@ -3,40 +3,29 @@
 #include "run.hh"
 
 MyRunAction::MyRunAction()
-{
-	auto analysisManager = G4AnalysisManager::Instance();
- 	analysisManager->SetDefaultFileType("root");
-     // If the filename extension is not provided, the default file type (root)
-     // will be used for all files specified without extension.
- 	analysisManager->SetVerboseLevel(1);
-
-  // Default settings
-  	analysisManager->SetNtupleMerging(true);
-     // Note: merging ntuples is available only with Root output
-  	analysisManager->SetFileName("simmm");
-	
-	analysisManager->CreateNtuple("Hits", "Hits");
-	analysisManager->CreateNtupleIColumn("fEvent");
-	analysisManager->CreateNtupleIColumn("fX");
-	analysisManager->CreateNtupleIColumn("fY");
-	analysisManager->CreateNtupleIColumn("fZ");	
-	analysisManager->FinishNtuple();
-	
-	analysisManager->SetNtupleFileName(0, "simNtuple");
-}
+{}
 
 MyRunAction::~MyRunAction()
 {}
 
 void MyRunAction::BeginOfRunAction(const G4Run*)
 {
-	auto analysisManager = G4AnalysisManager::Instance();
-	analysisManager->Reset();	
+	G4AnalysisManager *man = G4AnalysisManager::Instance();
+	
+	man->OpenFile("output_sim.root");
+	
+	man->CreateNtuple("Hits", "Hits");
+	man->CreateNtupleIColumn("fEvent");
+	man->CreateNtupleDColumn("fX");
+	man->CreateNtupleDColumn("fY");
+	man->CreateNtupleDColumn("fZ");
+	man->FinishNtuple(0);
 }
 
 void MyRunAction::EndOfRunAction(const G4Run*)
 {
-	auto analysisManager = G4AnalysisManager::Instance();
-  	analysisManager->Write();
-  	analysisManager->CloseFile(false);
+	G4AnalysisManager *man = G4AnalysisManager::Instance();
+	
+	man->Write();
+	man->CloseFile();
 }
