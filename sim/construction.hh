@@ -18,6 +18,9 @@ public:
 	~MyDetectorConstruction();
 	
 	virtual G4VPhysicalVolume *Construct();
+	
+private:
+	G4LogicalVolume *logicDetector;
 };
 
 #endif

@@ -77,11 +77,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     worldMat->SetMaterialPropertiesTable(mptWorld);
     
     G4Box *solidWorld = new G4Box("solidWorld", 4*m, 4*m, 4*m);
-    // G4Tubs *solidWorld = new G4Tubs("solidWorld", 
-    //                                    0.5*m,    // Inner Radius
-    //                                    0.55*m, // Outer Radius
-    //                                    0.5*m,    // Tube Half Length
-    //                                   0,2*CLHEP::pi);
+    
     G4LogicalVolume *logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicWorld");
         
     G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logicWorld, "physWorld", 0, false, 0, true);
@@ -117,6 +113,21 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4LogicalVolume *logicBGO6 = new G4LogicalVolume(solidBGO6, BGO, "logicalBGO6");
     new G4PVPlacement(0, G4ThreeVector(-12.5*cm, 0., 0.), logicBGO6, "physBGO6", logicWorld, false, 0, true);
     
-    				   
+    // Array of photodetectors YouTube tutorial
+    G4bool checkOverlaps = true;
+    G4Box *solidDetector = new G4Box("solidDetector", 0.05*m, 0.05*m, 0.01*m);
+    
+    // We had to add the logicDetector to the construction.hh ????????
+    logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
+    
+    for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(-3.95*m+(i+0.5)*m/10, -3.95*m+(j+0.5)*m/10, 3.99*m), logicDetector, "physDetector", logicWorld, false, j+i*1, checkOverlaps);
+        }
+    }
+    
+    
     return physWorld;
 }
