@@ -659,9 +659,77 @@ CMakeFiles/sim.dir/sim.cc.o: \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Tubs.icc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PhysicalConstants.hh \
+  /Users/diegocostasrodriguez/software/geant4/sim/detector.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4CollectionNameVector.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VSDFilter.hh \
   /Users/diegocostasrodriguez/software/geant4/sim/action.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserActionInitialization.hh \
   /Users/diegocostasrodriguez/software/geant4/sim/generator.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleGun.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPrimaryGenerator.hh
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/diegocostasrodriguez/software/geant4/sim/run.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UserRunAction.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManagerState.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisVerbose.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VAnalysisManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4HnManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4BaseAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Fcn.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4BinScheme.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4HnInformation.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisUtilities.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NtupleBookingManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/ntuple_booking \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/cids \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/cid \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/typedefs \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/forit \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4NtupleBookingManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VH1Manager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VH2Manager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VH3Manager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VP1Manager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VP2Manager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VNtupleManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VFileManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4BaseFileManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VTHnFileManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4THnManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4THnManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h1d \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h1 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/b1 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/base_histo \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/histo_data \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/axes \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/axis \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/../eqT \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h2d \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h2 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/b2 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h3d \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h3 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/b3 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/p1d \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/p1 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/profile_data \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/p2d \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/p2 \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4H1ToolsManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4H2ToolsManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4H3ToolsManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4P1ToolsManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4P2ToolsManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericAnalysisManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericFileManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericFileManager.icc

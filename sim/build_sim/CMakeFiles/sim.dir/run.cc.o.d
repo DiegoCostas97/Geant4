@@ -1,12 +1,7 @@
-CMakeFiles/sim.dir/action.cc.o: \
-  /Users/diegocostasrodriguez/software/geant4/sim/action.cc \
-  /Users/diegocostasrodriguez/software/geant4/sim/action.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserActionInitialization.hh \
-  /Users/diegocostasrodriguez/software/geant4/sim/generator.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleGun.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/globals.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ios.hh \
+CMakeFiles/sim.dir/run.cc.o: \
+  /Users/diegocostasrodriguez/software/geant4/sim/run.cc \
+  /Users/diegocostasrodriguez/software/geant4/sim/run.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UserRunAction.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Types.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GlobalConfig.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/complex \
@@ -243,6 +238,14 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/istream \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tls.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VAnalysisManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManagerState.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisVerbose.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/globals.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ios.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iostream \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4String.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4String.icc \
@@ -256,42 +259,9 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/optional \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ThreeVector.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleDefinition.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PDefManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/pwdefs.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AutoLock.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Threading.hh \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleDefinition.icc \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PrimaryVertex.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Allocator.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AllocatorPool.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4PrimaryParticle.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleMomentum.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleTable.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleTableIterator.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ParticleTable.icc \
-  /Users/diegocostasrodriguez/software/geant4/sim/run.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UserRunAction.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4GenericAnalysisManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ToolsAnalysisManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4VAnalysisManager.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisManagerState.hh \
-  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AnalysisVerbose.hh \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stack \
@@ -326,8 +296,17 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UIparameter.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4UItokenNum.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ApplicationState.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4ThreeVector.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4THnManager.hh \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4Threading.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4THnManager.icc \
+  /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/G4AutoLock.hh \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h1d \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/h1 \
   /Users/diegocostasrodriguez/software/geant4/geant4_install/include/Geant4/tools/histo/b1 \

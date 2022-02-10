@@ -11,6 +11,8 @@
 #include "G4Tubs.hh"
 #include "G4PhysicalConstants.hh"
 
+#include "detector.hh"
+
 class MyDetectorConstruction : public G4VUserDetectorConstruction
 {
 public:
@@ -18,9 +20,10 @@ public:
 	~MyDetectorConstruction();
 	
 	virtual G4VPhysicalVolume *Construct();
-	
+
 private:
-	G4LogicalVolume *logicDetector;
+	G4LogicalVolume *logicDetector1;
+	virtual void ConstructSDandField();
 };
 
 #endif

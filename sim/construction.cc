@@ -115,19 +115,26 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     
     // Array of photodetectors YouTube tutorial
     G4bool checkOverlaps = true;
-    G4Box *solidDetector = new G4Box("solidDetector", 0.05*m, 0.05*m, 0.01*m);
-    
+    G4Box *solidDetector1 = new G4Box("solidDetector1", 0.05*m, 0.05*m, 0.1*m);
+        
     // We had to add the logicDetector to the construction.hh ????????
-    logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
+    logicDetector1 = new G4LogicalVolume(solidDetector1, worldMat, "logicDetector1");
     
     for(G4int i = 0; i < 80; i++)
     {
         for(G4int j = 0; j < 80; j++)
         {
-            new G4PVPlacement(0, G4ThreeVector(-3.95*m+(i+0.5)*m/10, -3.95*m+(j+0.5)*m/10, 3.99*m), logicDetector, "physDetector", logicWorld, false, j+i*1, checkOverlaps);
+            new G4PVPlacement(0, G4ThreeVector(-3.995*m+(i+0.5)*m/10, -3.995*m+(j+0.5)*m/10, 3.90*m), logicDetector1, "physDetector1", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
         }
     }
     
     
     return physWorld;
+}
+
+void MyDetectorConstruction::ConstructSDandField() // This won't work if the logicDetector is not defined in the header file!
+{
+    MySensitiveDetector *sensDet = new MySensitiveDetector("SensitiveDetector");
+    
+    logicDetector1->SetSensitiveDetector(sensDet);
 }
