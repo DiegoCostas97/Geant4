@@ -114,12 +114,23 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     new G4PVPlacement(0, G4ThreeVector(-12.5*cm, 0., 0.), logicBGO6, "physBGO6", logicWorld, false, 0, true);
     
     // Array of photodetectors YouTube tutorial
-    G4bool checkOverlaps = true;
+    G4bool checkOverlaps = false;
     G4Box *solidDetector1 = new G4Box("solidDetector1", 0.05*m, 0.05*m, 0.1*m);
+    G4Box *solidDetector2 = new G4Box("solidDetector2", 0.05*m, 0.05*m, 0.1*m);
+    G4Box *solidDetector3 = new G4Box("solidDetector3", 0.05*m, 0.1*m, 0.05*m);
+    G4Box *solidDetector4 = new G4Box("solidDetector4", 0.05*m, 0.1*m, 0.05*m);
+    G4Box *solidDetector5 = new G4Box("solidDetector5", 0.1*m, 0.05*m, 0.05*m);
+    G4Box *solidDetector6 = new G4Box("solidDetector6", 0.1*m, 0.05*m, 0.05*m);
         
     // We had to add the logicDetector to the construction.hh ????????
     logicDetector1 = new G4LogicalVolume(solidDetector1, worldMat, "logicDetector1");
+    logicDetector2 = new G4LogicalVolume(solidDetector2, worldMat, "logicDetector2");
+    logicDetector3 = new G4LogicalVolume(solidDetector3, worldMat, "logicDetector3");
+    logicDetector4 = new G4LogicalVolume(solidDetector4, worldMat, "logicDetector4");
+    logicDetector5 = new G4LogicalVolume(solidDetector5, worldMat, "logicDetector5");
+    logicDetector6 = new G4LogicalVolume(solidDetector6, worldMat, "logicDetector6");
     
+    // For loops to create the array. It's not that complicated, read slowly.
     for(G4int i = 0; i < 80; i++)
     {
         for(G4int j = 0; j < 80; j++)
@@ -127,6 +138,50 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
             new G4PVPlacement(0, G4ThreeVector(-3.995*m+(i+0.5)*m/10, -3.995*m+(j+0.5)*m/10, 3.90*m), logicDetector1, "physDetector1", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
         }
     }
+    
+    for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(-3.995*m+(i+0.5)*m/10, -3.995*m+(j+0.5)*m/10, -3.90*m), logicDetector2, "physDetector2", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
+        }
+    }
+    
+     for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(-3.995*m+(i+0.5)*m/10, 3.90*m, -3.995*m+(j+0.5)*m/10), logicDetector3, "physDetector3", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
+        }
+    }
+    
+    for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(-3.995*m+(i+0.5)*m/10, -3.90*m, -3.995*m+(j+0.5)*m/10), logicDetector4, "physDetector4", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
+        }
+    }
+    
+    for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(3.90*m, -3.995*m+(i+0.5)*m/10, -3.995*m+(j+0.5)*m/10), logicDetector5, "physDetector5", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
+        }
+    }
+    
+    for(G4int i = 0; i < 80; i++)
+    {
+        for(G4int j = 0; j < 80; j++)
+        {
+            new G4PVPlacement(0, G4ThreeVector(-3.90*m, -3.995*m+(i+0.5)*m/10, -3.995*m+(j+0.5)*m/10), logicDetector6, "physDetector6", logicWorld, false, j+i*1, checkOverlaps); // Gives some overlaps, maybe check. I could not find them.
+        }
+    }
+
+
+
+
     
     
     return physWorld;
@@ -137,4 +192,9 @@ void MyDetectorConstruction::ConstructSDandField() // This won't work if the log
     MySensitiveDetector *sensDet = new MySensitiveDetector("SensitiveDetector");
     
     logicDetector1->SetSensitiveDetector(sensDet);
+    logicDetector2->SetSensitiveDetector(sensDet);
+    logicDetector3->SetSensitiveDetector(sensDet);
+    logicDetector4->SetSensitiveDetector(sensDet);
+    logicDetector5->SetSensitiveDetector(sensDet);
+    logicDetector6->SetSensitiveDetector(sensDet);
 }
