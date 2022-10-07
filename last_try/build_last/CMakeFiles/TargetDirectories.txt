@@ -1,0 +1,4 @@
+/Users/diegocostasrodriguez/software/geant4/last_try/build_last/CMakeFiles/last.dir
+/Users/diegocostasrodriguez/software/geant4/last_try/build_last/CMakeFiles/Last_Try.dir
+/Users/diegocostasrodriguez/software/geant4/last_try/build_last/CMakeFiles/edit_cache.dir
+/Users/diegocostasrodriguez/software/geant4/last_try/build_last/CMakeFiles/rebuild_cache.dir
